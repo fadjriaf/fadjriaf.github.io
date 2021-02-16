@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-fixed {
+    z-index: 9999;
+}
+
+.nav-wrapper {
+    border-bottom: 3px solid cyan;
+    background-color: black;
+}
+
+.welcome {
+    width: 100%;
+    height: auto;
+    padding: 5% 0px;
+}
+
+.welcome,
+img {
+    text-align: center;
+}
+
+.photo-profile {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    /*margin-top: 75px;*/
+}
+
+.welcome p {
+    margin: 15px 10% 15px 10%;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.ico {
+    margin-left: 15px;
+    color: #000;
+}
+
+.intro {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.about-more {
+    margin-top: 5px;
+}
+
+/* Skills */
+.skills {
+    margin-top: 50px;
+}
+
+.skills-section {
+    padding: 75px 0px 50px 0px;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.skills-header {
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto 20px auto;
+    border-bottom: 0.2rem solid white;
+    color: white;
+}
+
+.row-skills {
+    margin-bottom: 0px;
+}
+
+.skills-section h5 {
+    text-align: center;
+}
+
+.skills-title {
+    margin-top: 10px;
+}
+
+.skills-item {
+    margin-top: 10px;
+}
+
+.img-skills {
+    float: left;
+    margin-right: 10px;
+    width: 65px;
+    height: 65px;
+    /*border: 1px solid #bfbfbf;*/
+}
+
+.checked {
+    color: orange;
+}
+
+.red-text {
+    color: red;
+}
+
+/* Works */
+.works-section {
+    padding: 75px 0px 25px 0px;
+}
+
+.works-header {
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto 20px auto;
+    border-bottom: 0.2rem solid black;
+    color: black;
+}
+
+.modal .modal-content {
+    padding: 24px;
+}
+
+.modal-content img {
+    width: 100% !important;
+    height: 90%;
+}
+
+.modal-content p {
+    margin-bottom: 100px;
+}
+
+.my-tags {
+    padding-bottom: 5px;
+}
+
+.page-footer {
+    background-color: black;
+    border-top: 3px solid cyan;
+}
+
+.tabs-white {
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+
+.tabs .tab a {
+    color: black;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    color: red;
+}
+
+.tabs .indicator {
+    background-color: red;
+}
+
+.action-button a {
+	margin: 10px 3px;
+}
+
+.the-credit {
+	display: none;
+}
+
+/* Contact */
+.contact-section {
+    padding: 75px 0px 50px 0px;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-header {
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto 20px auto;
+    border-bottom: 0.2rem solid white;
+    color: white;
+}
+
+.work-with {
+	color: white;
+}
+
+.contacts-btn {
+	margin-top: 10px;
+}
+
+
+i.medium {
+	color: white;
+	transition: 0.5s;
+}
+
+i.medium:hover {
+	color: cyan;
+
+}
+
+/* Media Queries */
+/* Tablet Devices > 600px */
+@media (max-width: 600px) {
+
+    /* Works */
+    .modal-content img {
+        display: none;
+    }
+
+    h3 {
+    	font-size: 2rem;
+    }
+
+    h5 {
+    	font-size: 1.2rem;
+    }
+}
+
+/* Desktop Devices > 992px */
+@media (max-width: 992px) {
+    .welcome {
+        width: 100%;
+        height: auto;
+        padding: 5% 0px;
+    }
+
+    .photo-profile {
+        width: 175px;
+        height: auto;
+        border-radius: 15px;
+        /*margin-top: 75px;*/
+    }
+
+    h3 {
+    	font-size: 2.5rem;
+    }
+
+    h5 {
+    	font-size: 1.5rem;
+    }
+}
